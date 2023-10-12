@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('plane.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.white-box {
+    text-align: center;
+    width:460px;
+    background:url(pixel.jpeg);
+    border:2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    color:#fff;
+    padding:30px,40px;
+    
+}
+
+.container {
+    background-color: transparent;
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+
+.container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.container button:hover {
+        background-color: #45a049;
+    }
+
+
+.qrcode {
+    align-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
